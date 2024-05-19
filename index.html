@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <title>test</title>
+</head>
+
+<body>
+
+    <p>
+        我们使用
+        <abbr title="超文本标记语言（Hyper text Markup Language）">HTML</abbr>
+        来组织网页文档。
+    </p>
+
+    <p>
+        第 33 届<abbr title="夏季奥林匹克运动会">奥运会</abbr>将于 2024 年 8
+        月在法国巴黎举行。
+    </p>
+
+    <address>Chris Mills, Manchester, The Grim North, UK</address>
+
+    <address>
+        <p>
+            Chris Mills<br />
+            Manchester<br />
+            The Grim North<br />
+            UK
+        </p>
+
+        <ul>
+            <li>Tel: 01234 567 890</li>
+            <li>Email: me@grim-north.co.uk</li>
+        </ul>
+    </address>
+
+    <address>
+        由 <a href="../authors/chris-mills/">Chris Mills</a> 编写的页面。
+    </address>
+
+    <pre><code>const para = document.querySelector('p');
+
+        para.onclick = function() {
+          alert('噢，噢，噢，别点我了。');
+        }</code></pre>
+
+    <p>
+        请不要使用 <code>&lt;font&gt;</code> 、
+        <code>&lt;center&gt;</code> 等表象元素。
+    </p>
+
+    <p>在上述的 JavaScript 示例中，<var>para</var> 表示一个段落元素。</p>
+
+    <p>按 <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd> 选择全部内容。</p>
+
+    <pre>$ <kbd>ping mozilla.org</kbd>
+        <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+        64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+
+    <time datetime="2016-01-20">2016 年 1 月 20 日</time>
+
+</body>
+
+</html>
